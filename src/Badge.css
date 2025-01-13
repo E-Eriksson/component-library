@@ -1,0 +1,27 @@
+.badgeLight {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.badgeDark {
+  background-color: darkblue;
+  color: lightblue;
+}
+
+.badgeLarge {
+  width: 200px;
+  height: 100px;
+  line-height: 75px;
+}
+
+.badgeSmall {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.badge {
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+}

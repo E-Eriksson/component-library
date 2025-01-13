@@ -1,0 +1,27 @@
+.buttonLarge {
+  width: 300px;
+  height: 100px;
+}
+
+.buttonSmall {
+  width: 150px;
+  height: 75px;
+}
+
+.buttonLight {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.buttonDark {
+  background-color: darkblue;
+  color: lightblue;
+}
+
+.button {
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}

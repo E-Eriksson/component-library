@@ -1,0 +1,16 @@
+.alertLight {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.alertDark {
+  background-color: darkblue;
+  color: lightblue;
+}
+
+.alert {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}
