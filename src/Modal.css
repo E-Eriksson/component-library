@@ -13,12 +13,20 @@
 
 .modal {
   background: white;
-  height: 500px;
-  width: 500px;
   margin: auto;
   padding: 2%;
   border: 2px solid #000;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1001;
+}
+
+.modalSmall {
+  width: 250px;
+  height: 250px;
+}
+
+.modalLarge {
+  width: 500px;
+  height: 500px;
 }

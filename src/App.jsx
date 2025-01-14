@@ -27,7 +27,7 @@ function App() {
         />
         <Alert color="light" icon="warning" />
         <Badge color="dark" icon="clock" content="14:00" size="small" />
-        <Modal isOpen={open} onClose={handleClose}>
+        <Modal isOpen={open} onClose={handleClose} size="large">
           <Modal.Header>
             <h1>Test title</h1>
           </Modal.Header>
