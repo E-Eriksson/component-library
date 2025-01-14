@@ -18,15 +18,17 @@ const sizes = {
   small: "Small",
 };
 
-const Modal = ({ isOpen, size = small, children }) => {
+const Modal = ({ isOpen, size = small, children, onClose }) => {
   if (!isOpen) return null;
   Modal.Header = Header;
   Modal.Body = Body;
   Modal.Footer = Footer;
   const combinedClass = sizes[size] + " modal";
   return (
-    <div className="modalBackground">
-      <div className={combinedClass}>{children}</div>
+    <div className="modalBackground" onClick={onClose}>
+      <div className={combinedClass} onClick={(e) => e.stopPropagation()}>
+        {children}
+      </div>
     </div>
   );
 };

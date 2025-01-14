@@ -19,6 +19,9 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .modalSmall {
@@ -29,4 +32,8 @@
 .modalLarge {
   width: 500px;
   height: 500px;
+}
+
+.modalFooter {
+  align-self: start;
 }
