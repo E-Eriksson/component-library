@@ -7,7 +7,10 @@ export default function Alert({ children, href = "#", imgSrc, imgAlt }) {
 
   return (
     <div className="card">
-      <img src={src} alt={alt} href={link} className="imgCard" />
+      <a href={link}>
+        {" "}
+        <img src={src} alt={alt} className="imgCard" />
+      </a>
       {children}
     </div>
   );
