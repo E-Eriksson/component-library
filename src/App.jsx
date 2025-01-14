@@ -45,7 +45,7 @@ function App() {
         </Modal>
         <Card
           imgSrc="https://upload.wikimedia.org/wikipedia/commons/0/0e/Tree_example_VIS.jpg"
-          imgAlt="A nice picture"
+          imgAlt="A nice tree"
         >
           <h1>A tree</h1>
           <h2>A nice picture of a tree</h2>
