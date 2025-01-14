@@ -14,6 +14,7 @@ export default function Button({
   size = "buttonSmall",
   color = "buttonLight",
   title = "click here!",
+  event = {},
 }) {
   let sizeClassName = sizes[size];
 
@@ -21,5 +22,9 @@ export default function Button({
 
   const combinedClasses = sizeClassName + " " + colorClassName + " button";
 
-  return <button className={combinedClasses}>{title}</button>;
+  return (
+    <button className={combinedClasses} onClick={event} type="button">
+      {title}
+    </button>
+  );
 }
