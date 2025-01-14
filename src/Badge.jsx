@@ -16,7 +16,7 @@ const sizes = {
   small: "badgeSmall",
 };
 
-export default function Alert({
+export default function Badge({
   color = "dark",
   icon = "check",
   content = "Test",
